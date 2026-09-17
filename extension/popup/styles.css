@@ -1,0 +1,28 @@
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  width: 280px;
+  margin: 0;
+  padding: 20px;
+  background: Canvas;
+  color: CanvasText;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.status {
+  margin-top: 16px;
+  font-size: 12px;
+}

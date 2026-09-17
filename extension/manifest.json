@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Jira Card Backlight",
+  "version": "0.1.0",
+  "description": "A foundation for subtle story and Epic backlighting on Jira sprint-board cards.",
+  "action": {
+    "default_title": "Jira Card Backlight",
+    "default_popup": "popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["content/index.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
